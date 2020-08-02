@@ -4,10 +4,10 @@
 
 ### 1. Order PCB
 
-#### Approved PCB Manufactors
+#### Some PCB Manufactors
+  * [OSH Park](https://oshpark.com/)
   * [PCBway](https://www.pcbway.com/)
   * [JLCPCB](https://jlcpcb.com/)
-  * [OSH Park](https://oshpark.com/)
 
 ### 2. Order Components
 
