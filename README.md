@@ -6,4 +6,4 @@ Of course, you can order these boards from OSHPark or any other PCB printing com
 
 ![](/db9-rgb.png)
 
-This is my first project using Kicad, any PR is very welcomed!
+This is my first project using Kicad, contributions are very welcome :+1:
