@@ -62,10 +62,19 @@ These LEDs are completely optional, you can see them on the board itself, if you
 * U: LED DISK
 * U: LED POWER
 
-#### 4.1 J2 Conector / EXTRA BUTTONS
+#### 4.2 J2 Conector / EXTRA BUTTONS
 
 These buttons are completely optional, you can do the same operations using any controller. Connect them to GND.
 
 * U: BTN OSD
 * U: BTN USER
 * U: BTN RESET
+
+### 5 Notes
+#### 5.1 MIDI
+
+These connectors allow you to have input and output for midi commands, for example to be used on a MT32 or [on their emulator](https://github.com/dwhinham/mt32-pi/).
+
+#### 5.2 AR_HEAD2
+IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
+
