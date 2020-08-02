@@ -1,5 +1,4 @@
 # MiSTer-analogIO-DiY
-[MiSTer] AnalogIO - DiY
 
 The aim of this repository is to share boards that can be easily crafted at home (ex. Electric iron) for MiSTer FPGA enthusiasts.
 
