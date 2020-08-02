@@ -47,7 +47,7 @@ This is a bill of materials to assemble an AnalogIO Board.
 |---|---|:---:|---|
 | DB9 | DSUB 90º |  | [rs](https://uk.rs-online.com/web/p/d-sub-connectors/2395855/) |
 
-#### 3.3 DB9 using J9 Connector
+#### 3.4 DB9 using J9 Connector
 
 | Name | Component | Value | Reference Parts |
 |---|---|:---:|---|
@@ -69,6 +69,26 @@ These buttons are completely optional, you can do the same operations using any 
 * U: BTN OSD
 * U: BTN USER
 * U: BTN RESET
+
+### RGB / VIDEO_EXT1
+
+This connector is commonly used for graphics with a VGA connector. Or you can solder your own.
+
+![imagen](https://user-images.githubusercontent.com/560310/89123460-d11ed900-d4cf-11ea-88ec-6d4f79b90eac.png)
+
+#### PINOUT 
+
+| PIN | Name |
+|---|---|
+| 1 | RED |
+| 3 | GREEN |
+| 5 | BLUE |
+| 2, 4 | GND |
+| 10 | HSYNC (or H+V using JP1) |
+| 11 | VSYNC |
+| 6,7,8,9,12 | NC |
+
+*HSYNC & VSYNC are attenuated with a 100-ohm resistance.*
 
 ### 5 Notes
 #### 5.1 JP1 / SYNC
