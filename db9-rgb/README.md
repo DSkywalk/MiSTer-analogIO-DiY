@@ -94,7 +94,7 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 | 2, 4 | GND |
 | 10 | HSYNC (or H+V using JP1) |
 | 11 | VSYNC |
-| 8  | LOCKED |
+| 8  | LOCKED/BLIND |
 | 6,7,9,12 | NC |
 
 #### 5.3 Useful Information
