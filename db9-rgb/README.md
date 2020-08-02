@@ -16,7 +16,7 @@ This is a bill of materials to assemble an AnalogIO Board.
 | Qty | Name | Component | Value | Reference Parts | Notes |
 |---|---|---|:---:|---|---|
 | 1 | CONNECTOR_... | Pin header 2.54mm 1x20 |  | [rs](https://uk.rs-online.com/web/p/pcb-headers/2518632/) [ebay-kit](https://www.ebay.co.uk/itm/SKY/192534020920) | some optional |
-| 1 | MiSTer | Pin header 2.54mm 2x20 |  | [rs](https://uk.rs-online.com/web/p/pcb-headers/6703496/) [ebay](https://www.ebay.co.uk/itm/yavi/253239947055) | optional, you could use two 1x20 |
+| 1 | MiSTer1 | Pin header 2.54mm 2x20 |  | [rs](https://uk.rs-online.com/web/p/pcb-headers/6703496/) [ebay](https://www.ebay.co.uk/itm/yavi/253239947055) | optional, you could use two 1x20 |
 | 16 | D1...D16 | Schottky Diode - 30V 200mA | BAT42 / BAT42-TR | [rs](https://uk.rs-online.com/web/p/rectifier-diodes-schottky-diodes/5444758P/) | |
 | 10 | HSYNC1, VSYNC1, DB9_1...8 | Resistor 1% / 5% 0.6W | 100 | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148433/) [ebay-kit](https://www.ebay.es/itm/SKY/383379552017) | |
 | 3 | RED_1, GRE_1, BLU_1 | Resistor 1% 0.6W | 510 | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148433/) | |
