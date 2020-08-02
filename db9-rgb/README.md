@@ -80,8 +80,9 @@ Join this pin if you want to combine HSYNC and VSYNC or you prefer to have them 
 These connectors allow you to have input and output for midi commands, for example to be used on a MT32 or [on their emulator](https://github.com/dwhinham/mt32-pi/).
 
 #### 5.3 AR_HEAD2
-IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
-MEM: These connectors are usually busy by OLD RAM PCB. They have been added simply as a reference.
+
+* IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
+* MEM: These connectors are usually busy by OLD RAM PCB. They have been added simply as a reference.
 
 #### 5.4 EX Heads
 5V, VCC (3.3V), GND: Ready for your usage.
