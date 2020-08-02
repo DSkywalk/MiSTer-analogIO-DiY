@@ -107,5 +107,5 @@ These connectors allow you to have input and output for midi commands, for examp
 #### 5.4 EX Heads
 
 * 5V, VCC (3.3V), GND: Ready for your usage.
-* 5V1 JP_1x02: 5V + GND
+* 5V1 JP_1x02: 5V + GND. You could use this conector as TV AV SWITCH.
 * 3.3V1 JP_1x02: 3.3V + GND. You could use this connector as TV RGB SWITCH.
