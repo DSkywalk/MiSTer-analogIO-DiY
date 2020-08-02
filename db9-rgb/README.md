@@ -28,6 +28,8 @@ This is a bill of materials to assemble an AnalogIO Board.
 ### 3. Optional Components
 #### 3.1 SPDIF using LED
 
+![imagen](https://user-images.githubusercontent.com/560310/89124012-f6ade180-d4d3-11ea-99dd-08d0a481fd8b.png)
+
 | Name | Component | Value | Reference Parts |
 |---|---|:---:|---|
 | SPDIF1 | LED 5mm | Red | [rs](https://uk.rs-online.com/web/p/products/2285988/) |
@@ -36,6 +38,8 @@ This is a bill of materials to assemble an AnalogIO Board.
 
 #### 3.2 SPDIF using TOSLINK
 
+![imagen](https://user-images.githubusercontent.com/560310/89124031-1c3aeb00-d4d4-11ea-9f5d-2b4e41d4db49.png)
+
 | Name | Component | Value | Reference Parts |
 |---|---|:---:|---|
 | C1 | Capacitor (Ceramic) 0104 / 0105 | 1uF / 0.1uF | [rs](https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/5381578/) |
@@ -43,11 +47,15 @@ This is a bill of materials to assemble an AnalogIO Board.
 
 #### 3.3 DB9 using PCB Socket
 
+![imagen](https://user-images.githubusercontent.com/560310/89124039-307ee800-d4d4-11ea-8b08-c576eb14c64b.png)
+
 | Name | Component | Value | Reference Parts |
 |---|---|:---:|---|
 | DB9 | DSUB 90º |  | [rs](https://uk.rs-online.com/web/p/d-sub-connectors/2395855/) |
 
 #### 3.4 DB9 using J9 Connector
+
+![imagen](https://user-images.githubusercontent.com/560310/89124049-44c2e500-d4d4-11ea-87b1-bd32d077d8e0.png)
 
 | Name | Component | Value | Reference Parts |
 |---|---|:---:|---|
