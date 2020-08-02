@@ -70,13 +70,12 @@ These buttons are completely optional, you can do the same operations using any 
 * U: BTN USER
 * U: BTN RESET
 
-### RGB / VIDEO_EXT1
+### 5 RGB
+#### 5.1 VIDEO_EXT1
 
 This connector is commonly used for graphics with a VGA connector. Or you can solder your own.
 
 ![imagen](https://user-images.githubusercontent.com/560310/89123460-d11ed900-d4cf-11ea-88ec-6d4f79b90eac.png)
-
-#### PINOUT 
 
 | PIN | Name |
 |---|---|
@@ -88,7 +87,11 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 | 11 | VSYNC |
 | 6,7,8,9,12 | NC |
 
-*HSYNC & VSYNC are attenuated with a 100-ohm resistance.*
+#### 5.3 Useful Information
+
+* HSYNC & VSYNC are attenuated with a 100-ohm resistance. You could use a variable resistor if you know your TV can be problematic.
+* 5V1 JP_1x02: 5V + GND. You could use this conector as TV AV SWITCH.
+* 3.3V1 JP_1x02: 3.3V + GND. You could use this connector as TV RGB SWITCH.
 
 ### 5 Notes
 #### 5.1 JP1 / SYNC
@@ -107,5 +110,3 @@ These connectors allow you to have input and output for midi commands, for examp
 #### 5.4 EX Heads
 
 * 5V, VCC (3.3V), GND: Ready for your usage.
-* 5V1 JP_1x02: 5V + GND. You could use this conector as TV AV SWITCH.
-* 3.3V1 JP_1x02: 3.3V + GND. You could use this connector as TV RGB SWITCH.
