@@ -17,8 +17,7 @@ This is a bill of materials to assemble an AnalogIO Board.
 |---|---|---|:---:|---|---|
 | 1 | CONNECTOR_... | Pin header 2.54mm 1x20 |  | [rs](https://uk.rs-online.com/web/p/pcb-headers/2518632/) [ebay-kit](https://www.ebay.co.uk/itm/SKY/192534020920) | some optional |
 | 1 | MiSTer1 | Pin header 2.54mm 2x20 |  | [rs](https://uk.rs-online.com/web/p/pcb-headers/6703496/) [ebay](https://www.ebay.co.uk/itm/yavi/253239947055) | optional, you could use two 1x20 |
-| 16 | D1...D16 | Schottky Diode - 30V 200mA | BAT42 / BAT42-TR | [rs](https://uk.rs-online.com/web/p/rectifier-diodes-schottky-diodes/5444758P/) | |
-| 2  | HSYNC1, VSYNC1 | Resistor 1% / 5% 0.6W | 100? | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148433/) [ebay-kit](https://www.ebay.es/itm/SKY/383379552017) | first test your CRT |
+| 18 | HSYNC1, VSYNC1, D1...D16 | Schottky Diode - 30V 200mA | BAT42 / BAT42-TR | [rs](https://uk.rs-online.com/web/p/rectifier-diodes-schottky-diodes/5444758P/) | |
 | 10 | DB9_1...8 | Resistor 1% / 5% 0.6W | 100 | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148433/) [ebay-kit](https://www.ebay.es/itm/SKY/383379552017) | |
 | 3 | RED_1, GRE_1, BLU_1 | Resistor 1% 0.6W | 510 | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148433/) | |
 | 3 | RED_2, GRE_2, BLU_2 | Resistor 1% 0.6W | 1.1K | [rs](https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0148512/) | |
@@ -100,9 +99,9 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 
 #### 5.3 Useful Information
 
-* HSYNC & VSYNC are attenuated with a 100-ohm resistance. You could use a variable resistor if you know your TV can be problematic.
-* 5V1 JP_1x02: 5V + GND. You could use this connector as TV AV SWITCH.
-* 3.3V1 JP_1x02: 3.3V + GND. You could use this connector as TV RGB SWITCH.
+* HSYNC1 & VSYNC1 are attenuated with a 100-ohm resistance. You could use a variable resistor if you know your TV can be problematic or test other values.
+* SWITCH PIN1: 3.3V You could use this connector as TV RGB SWITCH.
+* SWITCH PIN2: 5V You could use this connector as TV AV SWITCH.
 
 ### 6 Notes
 #### 6.1 JP1 / SYNC
@@ -120,4 +119,6 @@ These connectors allow you to have input and output for midi commands, for examp
 
 #### 6.4 EX Heads
 
-* 5V, VCC (3.3V), GND: Ready for your usage.
+* JP1x01 5V, VCC (3.3V), GND: Ready for your usage.
+* 5V1 JP_1x02: 5V + GND: Ready for your usage.
+* 3.3V1 JP_1x02: 3.3V + GND: Ready for your usage.
