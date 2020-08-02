@@ -494,7 +494,7 @@ U 1 1 5F0306AD
 P 7200 5650
 F 0 "JP1" H 7150 5750 50  0000 L CNN
 F 1 "SYNC" H 7280 5551 50  0001 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7200 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 5650 50  0001 C CNN
 F 3 "~" H 7200 5650 50  0001 C CNN
 	1    7200 5650
 	1    0    0    -1  
@@ -1072,10 +1072,10 @@ FIRE2
 Text GLabel 5350 2550 0    50   Input ~ 0
 MUX
 $Comp
-L Connector_Generic:Conn_01x01 EX2
+L Connector_Generic:Conn_01x01 VCC
 U 1 1 5F1C0798
 P 5550 4200
-F 0 "EX2" H 5300 4100 50  0000 L CNN
+F 0 "VCC" H 5300 4100 50  0000 L CNN
 F 1 "3V" H 5500 4050 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 4200 50  0001 C CNN
 F 3 "~" H 5550 4200 50  0001 C CNN
@@ -1102,10 +1102,10 @@ Text GLabel 5350 2250 0    50   Input ~ 0
 Text GLabel 5350 3350 0    50   Input ~ 0
 5V
 $Comp
-L Connector_Generic:Conn_01x01 EX1
+L Connector_Generic:Conn_01x01 5V
 U 1 1 5F2554AF
 P 5550 3700
-F 0 "EX1" H 5300 3600 50  0000 L CNN
+F 0 "5V" H 5300 3600 50  0000 L CNN
 F 1 "5V" H 5500 3550 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 3700 50  0001 C CNN
 F 3 "~" H 5550 3700 50  0001 C CNN
@@ -1161,10 +1161,10 @@ LED_DISK
 Text GLabel 5350 4800 0    50   Input ~ 0
 LED_PWR
 $Comp
-L Connector_Generic:Conn_01x01 EX3
+L Connector_Generic:Conn_01x01 GND
 U 1 1 5EFA90C2
 P 5550 3950
-F 0 "EX3" H 5300 3850 50  0000 L CNN
+F 0 "GND" H 5300 3850 50  0000 L CNN
 F 1 "GND" H 5500 3800 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 3950 50  0001 C CNN
 F 3 "~" H 5550 3950 50  0001 C CNN
