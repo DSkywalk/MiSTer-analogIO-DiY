@@ -105,4 +105,7 @@ These connectors allow you to have input and output for midi commands, for examp
 * MEM: These connectors are usually busy by OLD RAM PCB. They have been added simply as a reference.
 
 #### 5.4 EX Heads
-5V, VCC (3.3V), GND: Ready for your usage.
+
+* 5V, VCC (3.3V), GND: Ready for your usage.
+* JP 5V1: 5V + GND
+* JP 3.3V1: 3.3V + GND
