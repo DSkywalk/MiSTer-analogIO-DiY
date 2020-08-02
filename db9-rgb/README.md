@@ -5,7 +5,7 @@
 ### 1. Order PCB
 
 #### Approved PCB Manufactors
-  * [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024)
+  * [PCBway](https://www.pcbway.com/)
   * [JLCPCB](https://jlcpcb.com/)
   * [OSH Park](https://oshpark.com/)
 
