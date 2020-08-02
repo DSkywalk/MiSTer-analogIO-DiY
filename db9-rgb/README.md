@@ -107,5 +107,5 @@ These connectors allow you to have input and output for midi commands, for examp
 #### 5.4 EX Heads
 
 * 5V, VCC (3.3V), GND: Ready for your usage.
-* JP 5V1: 5V + GND
-* JP 3.3V1: 3.3V + GND
+* 5V1 JP_1x02: 5V + GND
+* 3.3V1 JP_1x02: 3.3V + GND
