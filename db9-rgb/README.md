@@ -81,6 +81,7 @@ These connectors allow you to have input and output for midi commands, for examp
 
 #### 5.3 AR_HEAD2
 IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
+MEM: These connectors are usually busy by OLD RAM PCB. They have been added simply as a reference.
 
 #### 5.4 EX Heads
 5V, VCC (3.3V), GND: Ready for your usage.
