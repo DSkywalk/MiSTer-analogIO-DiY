@@ -127,17 +127,6 @@ Wire Wire Line
 	6250 4200 6250 4400
 Connection ~ 6250 4400
 $Comp
-L Connector_Generic:Conn_01x02 3.3V1
-U 1 1 5EEA4EC4
-P 5750 4300
-F 0 "3.3V1" H 5800 4100 50  0000 C CNN
-F 1 "RGB-SWITCH" H 5950 4400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 4300 50  0001 C CNN
-F 3 "~" H 5750 4300 50  0001 C CNN
-	1    5750 4300
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 5V1
 U 1 1 5EEA6B09
 P 5750 3750
@@ -1071,17 +1060,6 @@ Text GLabel 5350 3250 0    50   Input ~ 0
 FIRE2
 Text GLabel 5350 2550 0    50   Input ~ 0
 MUX
-$Comp
-L Connector_Generic:Conn_01x01 VCC
-U 1 1 5F1C0798
-P 5550 4200
-F 0 "VCC" H 5300 4100 50  0000 L CNN
-F 1 "3V" H 5500 4050 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 4200 50  0001 C CNN
-F 3 "~" H 5550 4200 50  0001 C CNN
-	1    5550 4200
-	1    0    0    -1  
-$EndComp
 Text GLabel 5350 4200 0    50   Input ~ 0
 VCC
 Text GLabel 6200 3750 2    50   Input ~ 0
@@ -1102,10 +1080,10 @@ Text GLabel 5350 2250 0    50   Input ~ 0
 Text GLabel 5350 3350 0    50   Input ~ 0
 5V
 $Comp
-L Connector_Generic:Conn_01x01 5V
+L Connector_Generic:Conn_01x01 5V2
 U 1 1 5F2554AF
 P 5550 3700
-F 0 "5V" H 5300 3600 50  0000 L CNN
+F 0 "5V2" H 5300 3600 50  0000 L CNN
 F 1 "5V" H 5500 3550 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 3700 50  0001 C CNN
 F 3 "~" H 5550 3700 50  0001 C CNN
@@ -1160,17 +1138,6 @@ Text GLabel 5350 4700 0    50   Input ~ 0
 LED_DISK
 Text GLabel 5350 4800 0    50   Input ~ 0
 LED_PWR
-$Comp
-L Connector_Generic:Conn_01x01 GND
-U 1 1 5EFA90C2
-P 5550 3950
-F 0 "GND" H 5300 3850 50  0000 L CNN
-F 1 "GND" H 5500 3800 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 3950 50  0001 C CNN
-F 3 "~" H 5550 3950 50  0001 C CNN
-	1    5550 3950
-	1    0    0    -1  
-$EndComp
 Text GLabel 5350 3950 0    50   Input ~ 0
 GND
 $Comp
@@ -1262,4 +1229,37 @@ Text Label 2850 3700 0    50   ~ 0
 AG8-IO6
 Text Label 2850 3600 0    50   ~ 0
 AH8-IO7
+$Comp
+L Connector_Generic:Conn_01x01 GND1
+U 1 1 5EFA90C2
+P 5550 3950
+F 0 "GND1" H 5300 3850 50  0000 L CNN
+F 1 "GND" H 5500 3800 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 3950 50  0001 C CNN
+F 3 "~" H 5550 3950 50  0001 C CNN
+	1    5550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 VCC1
+U 1 1 5F1C0798
+P 5550 4200
+F 0 "VCC1" H 5300 4100 50  0000 L CNN
+F 1 "3V" H 5500 4050 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5550 4200 50  0001 C CNN
+F 3 "~" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 3.3V1
+U 1 1 5EEA4EC4
+P 5750 4300
+F 0 "3.3V1" H 5800 4100 50  0000 C CNN
+F 1 "RGB-SWITCH" H 5950 4400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 4300 50  0001 C CNN
+F 3 "~" H 5750 4300 50  0001 C CNN
+	1    5750 4300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
