@@ -71,10 +71,16 @@ These buttons are completely optional, you can do the same operations using any 
 * U: BTN RESET
 
 ### 5 Notes
-#### 5.1 MIDI
+#### 5.1 JP1 / SYNC
+
+Join this pin if you want to combine HSYNC and VSYNC or you prefer to have them separate.
+
+#### 5.2 MIDI
 
 These connectors allow you to have input and output for midi commands, for example to be used on a MT32 or [on their emulator](https://github.com/dwhinham/mt32-pi/).
 
-#### 5.2 AR_HEAD2
+#### 5.3 AR_HEAD2
 IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
 
+#### 5.4 EX Heads
+5V, VCC (3.3V), GND: Ready for your usage.
