@@ -99,9 +99,9 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 
 #### 5.3 Useful Information
 
-* HSYNC & VSYNC are attenuated with a 100-ohm resistance. You could use a variable resistor if you know your TV can be problematic.
-* 5V1 JP_1x02: 5V + GND. You could use this connector as TV AV SWITCH.
-* 3.3V1 JP_1x02: 3.3V + GND. You could use this connector as TV RGB SWITCH.
+* HSYNC1 & VSYNC1 are attenuated with a 100-ohm resistance. You could use a variable resistor if you know your TV can be problematic or test other values.
+* SWITCH PIN1: 3.3V You could use this connector as TV RGB SWITCH.
+* SWITCH PIN2: 5V You could use this connector as TV AV SWITCH.
 
 ### 6 Notes
 #### 6.1 JP1 / SYNC
@@ -119,4 +119,6 @@ These connectors allow you to have input and output for midi commands, for examp
 
 #### 6.4 EX Heads
 
-* 5V, VCC (3.3V), GND: Ready for your usage.
+* JP1x01 5V, VCC (3.3V), GND: Ready for your usage.
+* 5V1 JP_1x02: 5V + GND: Ready for your usage.
+* 3.3V1 JP_1x02: 3.3V + GND: Ready for your usage.
