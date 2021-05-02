@@ -108,16 +108,7 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 
 Join this pin if you want to combine HSYNC and VSYNC or you prefer to have them separate.
 
-#### 6.2 MIDI
-
-These connectors allow you to have input and output for midi commands, for example to be used on a MT32 or [on their emulator](https://github.com/dwhinham/mt32-pi/).
-
-#### 6.3 AR_HEAD2
-
-* IO7, IO6, IO5: These connectors have been made available for future use. For example I2S.
-* MEM: These connectors are usually busy by OLD RAM PCB. They have been added simply as a reference.
-
-#### 6.4 EX Heads
+#### 6.2 EX Heads
 
 * JP1x01 5V, VCC (3.3V), GND: Ready for your usage.
 * 5V1 JP_1x02: 5V + GND: Ready for your usage.
