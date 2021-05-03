@@ -80,7 +80,7 @@ These buttons are completely optional, you can do the same operations using any 
 * U: BTN RESET
 
 ### 5 RGB
-#### 5.1 VIDEO_EXT1
+#### 5.1 VIDEO_EXT
 
 This connector is commonly used for graphics with a VGA connector. Or you can solder your own.
 
@@ -106,7 +106,7 @@ This connector is commonly used for graphics with a VGA connector. Or you can so
 ### 6 Notes
 #### 6.1 JP1 / SYNC
 
-Join this pin if you want to combine HSYNC and VSYNC or you prefer to have them separate.
+Join this pin if you want to combine HSYNC and VSYNC or you prefer to have them separate, for PC-VGA separate them and for TV combine them.
 
 #### 6.2 EX Heads
 
