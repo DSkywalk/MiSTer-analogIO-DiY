@@ -3,3 +3,4 @@
 *.sch-bak
 *-cache.lib
 fp-info-cache
+fp-lib-table
